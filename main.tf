@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "manojinfra" {
 	ami = "ami-0ac4dfaf1c5c0cce9" 
-	instance_type = "t2.micro"
+	instance_type = "t2.nano"
 }
